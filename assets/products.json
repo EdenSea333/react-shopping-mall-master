@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 12,
+      "sku": 12064273040195392,
+      "title": "Cat Tee Black T-Shirt",
+      "size": "S",
+      "price": 10
+    },
+    {
+      "id": 13,
+      "sku": 51498472915966366,
+      "title": "Dark Thug Blue-Navy T-Shirt",
+      "size": "M",
+      "price": 29
+    },
+    {
+      "id": 14,
+      "sku": 10686354557628303,
+      "title": "Sphynx Tie Dye Wine T-Shirt",
+      "size": "XL",
+      "price": 9
+    },
+    {
+      "id": 15,
+      "sku": 11033926921508487,
+      "title": "Skuul",
+      "size": "L",
+      "price": 14
+    },
+    {
+      "id": 11,
+      "sku": 39876704341265606,
+      "title": "Wine Skul T-Shirt",
+      "size": "L",
+      "price": 13
+    },
+    {
+      "id": 16,
+      "sku": 10412368723880253,
+      "title": "Short Sleeve T-Shirt",
+      "size": "S",
+      "price": 75
+    },
+    {
+      "id": 0,
+      "sku": 8552515751438644,
+      "title": "Cat Tee Black T-Shirt",
+      "size": "XXL",
+      "price": 12
+    },
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "Sphynx Tie Dye Grey T-Shirt",
+      "size": "XXL",
+      "price": 11
+    },
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "Danger Knife Grey",
+      "size": "M",
+      "price": 14,
+      "isFreeShipping": true
+    },
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "White DGK Script Tee",
+      "size": "M",
+      "price": 14
+    },
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "Born On The Streets",
+      "size": "XS",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "Tso 3D Short Sleeve T-Shirt A",
+      "size": "L",
+      "price": 10
+    },
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "Man Tie Dye Cinza Grey T-Shirt",
+      "size": "XL",
+      "price": 49
+    },
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "Crazy Monkey Black T-Shirt",
+      "size": "XS",
+      "price": 22
+    },
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "Tso 3D Black T-Shirt",
+      "size": "XL",
+      "price": 18
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "Crazy Monkey Grey",
+      "size": "XS",
+      "price": 134
+    },
+    {
+      "id": 10,
+      "sku": 27250082398145995,
+      "title": "On The Streets Black T-Shirt",
+      "size": "S",
+      "price": 49
+    }
+  ]
+}

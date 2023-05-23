@@ -1,0 +1,165 @@
+$cartBgColor: #222;
+$footerBgColor: #111;
+$firstColor: #fff;
+$secondColor: #5b5a5e;
+$highlightColor: #eabf00;
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: -450px;
+  width: 450px;
+  height: 100%;
+  background-color: $cartBgColor;
+  box-sizing: border-box;
+
+  transition: right 0.2s;
+
+  &--open {
+    right: 0;
+  }
+
+  &--toggle-btn {
+    position: absolute;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: $cartBgColor;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &--header {
+    color: $firstColor;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    vertical-align: middle;
+  }
+
+  &--shelf-container {
+    position: relative;
+    padding-bottom: 200px;
+
+    .shelf-empty {
+      color: $firstColor;
+      text-align: center;
+      line-height: 40px;
+    }
+
+    .cart-item {
+      position: relative;
+      box-sizing: border-box;
+      padding: 5%;
+      border-top: 2px solid $secondColor;
+
+      transition: background-color 0.2s, opacity 0.2s;
+
+      &--thumb,
+      &--details,
+      &--price {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      &--thumb {
+        vertical-align: middle;
+        width: 15%;
+        margin-right: 5%;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      &--details {
+        width: 55%;
+
+        .title {
+          color: $firstColor;
+        }
+
+        .desc {
+          color: $secondColor;
+        }
+      }
+
+      &--price {
+        color: $highlightColor;
+        text-align: right;
+        width: 25%;
+      }
+
+      &--del {
+        width: 16px;
+        height: 16px;
+        color: $firstColor;
+
+        &:hover {
+          color: $firstColor;
+        }
+      }
+
+      .change-product-button {
+        color: $firstColor;
+        background-color: #000;
+        border: 0;
+        width: 25px;
+        height: 25px;
+
+        &:disabled {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
+
+  &--footer {
+    padding: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: $footerBgColor;
+
+    .total-title {
+      float: left;
+      color: $firstColor;
+      font-size: 20px;
+    }
+
+    .total-price {
+      float: right;
+      color: $highlightColor;
+      font-size: 20px;
+    }
+
+    .buy-btn {
+      width: 100%;
+      padding: 15px 0;
+      margin-top: 20px;
+      text-align: center;
+      color: $firstColor;
+      background-color: $cartBgColor;
+
+      // optional: bg transition
+      transition: background-color 0.2s;
+      &:hover {
+        background-color: #000;
+      }
+    }
+  }
+}
+
+.cart--content {
+  height: 100%;
+  overflow-y: scroll;
+}
